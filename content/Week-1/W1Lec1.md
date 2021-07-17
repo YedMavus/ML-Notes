@@ -1,3 +1,8 @@
+---
+title: "Introduction"
+date: 2021-07-17 00:00:00 +0000
+katex: true
+---
 # Introduction
 Definition of **Learning**: The ability to improve behaviour or a prediction based on experience.
 
