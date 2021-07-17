@@ -8,6 +8,7 @@ theme = "hyde"
   main = [
       {Name = "Github", URL = "https://github.com/YedMavus/"},
       {Name = "LinkedIn", URL = "https://www.linkedin.com/in/suvam-dey/"}
+      {Name = "FaceBook", URL = "https://facebook.com/Yed.Mavus/"}
   ]
 
 [params]
