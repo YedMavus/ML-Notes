@@ -53,7 +53,7 @@ eg Type of blood group, or Ordinal [small, medium or large] etc
 - Task T is given
   - Input: Set of Instances  \\( d_1, d_2, ... , d_n \\)
     * Each instance  has a set of features
-    * So d can be represented as a vector **\vec{d}** = < \\( X_1, X_2, ... , X_n \\)>
+    * So d can be represented as a vector **\vec d** = < \\( X_1, X_2, ... , X_n \\)>
   - Output: A set of predictions as one of a fixed set of constant values 
 - Performance Metric P 
   - Probability of a prediction being wrong
