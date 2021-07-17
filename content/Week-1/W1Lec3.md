@@ -1,6 +1,6 @@
 ---
 title: "Week1 Lecture 3: Hypothesis Space and Inductive Bias"
-date: 2021-07-17 00:00:00 +0000
+date: 2021-07-15 00:00:00 +0000
 katex: true
 ---
 # Week1 Lecture 3: Hypothesis Space and Inductive Bias
