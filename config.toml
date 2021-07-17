@@ -1,14 +1,15 @@
-baseURL = "https://yedmavus.github.io/latexhugo/" # Please enter your githubpage's url here
+baseURL = "https://yedmavus.github.io/ML-Notes/" # Please enter your githubpage's url here
 languageCode = "en-us"
-title = "My Latex Notes"
+title = "Machine Learning Notes Based on NPTEL Lectures at IIT-Kgp"
 theme = "hyde"
 
 
 [Menus]
   main = [
-      {Name = "Github", URL = "https://github.com/username/"},
-      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/username/"}
+      {Name = "Github", URL = "https://github.com/YedMavus/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/suvam-dey/"}
   ]
 
 [params]
-  description = "Alright boi, keep your notes here"
+  description = "Course Instructor Prof. Sudeshna Saha
+All notes taken by Suvam Dey"
