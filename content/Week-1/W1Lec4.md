@@ -1,6 +1,6 @@
 ---
 title: "Week 1 Lecture 4: Evaluation and Cross Validation"
-date: 2021-07-17 00:00:00 +0000
+date: 2021-07-16 00:00:00 +0000
 katex: true
 ---
 # Week 1 Lecture 4: Evaluation and Cross Validation
