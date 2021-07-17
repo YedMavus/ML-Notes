@@ -22,10 +22,10 @@ katex: true
 ## Supervised Learning
 We have a set of input features given X<sub>1</sub>, X<sub>2</sub>, ... , X<sub>n</sub>, with respect to which the instances are described. We also have a target feature Y.
   
-  | S.No | X<sub>1 </sub>, X<sub>2</sub>, ... , X<sub>n</sub> | Y |
+  | S.No | \\( X_1, X_2, ... , X_n \\) | Y |
   | -- |------------------------------------------- | -- |
-  | 1. | A<sub>1</sub>, A<sub>2</sub>, ... , A<sub>n</sub> | Y<sub>1</sub> |
-  | 2. | B<sub>1</sub>, B<sub>2</sub>, ... , B<sub>n</sub> | Y<sub>2</sub> |
+  | 1. | \\( A_1, A_2, ... , A_n \\) | \\( Y_1\\) |
+  | 2. | \\( B_1, B_2, ... , B_n \\) | \\( Y_2\\) |
   | . | . | . |
   | . | . |.|
   | . | . |.|
@@ -51,9 +51,9 @@ eg Type of blood group, or Ordinal [small, medium or large] etc
 ## Classification Learning
 
 - Task T is given
-  - Input: Set of Instances d<sub>1</sub>, d<sub>2</sub>, ... , d<sub>n</sub>
+  - Input: Set of Instances  \\( d_1, d_2, ... , d_n \\)
     * Each instance  has a set of features
-    * So d can be represented as a vector **d** = <X<sub>1 </sub>, X<sub>2</sub>, ... , X<sub>n</sub>>
+    * So d can be represented as a vector **d** = < \\( X_1, X_2, ... , X_n \\)>
   - Output: A set of predictions as one of a fixed set of constant values 
 - Performance Metric P 
   - Probability of a prediction being wrong
