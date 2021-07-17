@@ -1,5 +1,5 @@
 ---
-title: "How to use my script"
+title: "Credits"
 katex: true
 ---
 
