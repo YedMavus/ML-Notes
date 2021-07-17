@@ -11,9 +11,7 @@ theme = "hyde"
   ]
 
 [params]
-  description = 
-  """\
-  Machine Learning Notes Based on NPTEL Lectures at IIT-Kgp \
- """
+  description = ""
+
   
   
