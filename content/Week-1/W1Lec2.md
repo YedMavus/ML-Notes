@@ -1,3 +1,8 @@
+---
+title: "Week 1 Lecture 2: Different Types of Learning"
+date: 2021-07-17 00:00:00 +0000
+katex: true
+---
 # Week 1 Lecture 2: Different Types of Learning
 * Supervised Learning
   - Has (X, Y) given as data, where X was input, Y was output, and model tries to find out Y for a new X and compare with the given Y
