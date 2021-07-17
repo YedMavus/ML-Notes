@@ -11,11 +11,7 @@ theme = "hyde"
   ]
 
 [params]
-  description =   "
-  Machine Learning Notes Based on NPTEL Lectures at IIT-Kgp  
-  Course instructor Prof Sudeshna Saha 
-  Notes taken by Suvam Dey
- "
+  description =   "Machine Learning Notes Based on NPTEL Lectures at IIT-Kgp | Course instructor Prof Sudeshna Saha | Notes taken by Suvam Dey"
 
   
   
