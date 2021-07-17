@@ -1,3 +1,8 @@
+---
+title: "Week 1 Lecture 4: Evaluation and Cross Validation"
+date: 2021-07-17 00:00:00 +0000
+katex: true
+---
 # Week 1 Lecture 4: Evaluation and Cross Validation
 
 Given a hypothesis space H and training data S, the learning algo comes up with a function h. To understand how good the h is, we need to evaluate it using experimental evaluation, ie having a metric using which we evaluate, eg 
