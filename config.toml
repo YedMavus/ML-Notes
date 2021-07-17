@@ -1,4 +1,4 @@
-baseURL = "https://yedmavus.github.io/latexhugo" # Please enter your githubpage's url here
+baseURL = "https://yedmavus.github.io/latexhugo/" # Please enter your githubpage's url here
 languageCode = "en-us"
 title = "Machine Learning Notes Based on NPTEL Lectures at IIT-Kgp"
 theme = "hyde"
