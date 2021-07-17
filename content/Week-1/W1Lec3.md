@@ -6,7 +6,7 @@ katex: true
 # Week1 Lecture 3: Hypothesis Space and Inductive Bias
 
 ## Inductive Learing or Prediction
-- Given examples or data of form \\( \frac{(x , y)}{(x, f(x))} \\)
+- Given examples or data of form (x , y) or (x, f(x))
   - **Classification Problems:** f(x) is discrete
   - **Regression Problems**: f(x) is continuous
   - **Probability Estimation:** f(x) is the probability of x
