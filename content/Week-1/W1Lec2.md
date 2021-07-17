@@ -20,7 +20,7 @@ katex: true
   - Most common for now
 
 ## Supervised Learning
-We have a set of input features given X<sub>1</sub>, X<sub>2</sub>, ... , X<sub>n</sub>, with respect to which the instances are described. We also have a target feature Y.
+We have a set of input features given \\( X_1, X_2, ... , X_n \\), with respect to which the instances are described. We also have a target feature Y.
   
   | S.No | \\( X_1, X_2, ... , X_n \\) | Y |
   | -- |------------------------------------------- | -- |
@@ -31,7 +31,7 @@ We have a set of input features given X<sub>1</sub>, X<sub>2</sub>, ... , X<sub>
   | . | . |.|
   | . | . |.|
   
-  So the values of Y<sub>i</sub> are given. Along with this a test instance is given, containing only X<sub>i</sub>.
+  So the values of \\( Y_1\\) are given. Along with this a test instance is given, containing only \\( X_1\\).
   
   * If Y is discrete valued, [eg Will it rain, or not rain] it is known as **Classification**.
   * If Y is continious valued, [eg Given a location, predict price of house per sq inches], it is known as **Regression**.
