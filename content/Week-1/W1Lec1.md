@@ -15,7 +15,7 @@ Definition of **Learning**: The ability to improve behaviour or a prediction bas
     - 
   Formal definition of ML _(Mitchell)_: A computer program **(machine)** is said to **learn** from experience E, with respect to some class of tasks T, and performance measure P, if its performance on task T as measured by P improves with experience E.
 ### Components of a Learning Algo
-  - Tasks T <sub>i</sub>
+  - Tasks \\( T_i \\)
     - Prediction
     - Classification
     - Acting in an environment
