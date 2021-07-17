@@ -1,6 +1,6 @@
 ---
 title: "Week 1 Lecture 2: Different Types of Learning"
-date: 2021-07-17 00:00:00 +0000
+date: 2021-07-14 00:00:00 +0000
 katex: true
 ---
 # Week 1 Lecture 2: Different Types of Learning
