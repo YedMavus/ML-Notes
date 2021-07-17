@@ -11,5 +11,4 @@ theme = "hyde"
   ]
 
 [params]
-  description = "Course Instructor Prof. Sudeshna Saha
-All notes taken by Suvam Dey"
+  description = "Course Instructor Prof. Sudeshna Saha; All notes taken by Suvam Dey"
