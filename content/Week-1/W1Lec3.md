@@ -10,8 +10,8 @@ katex: true
   - **Classification Problems:** f(x) is discrete
   - **Regression Problems**: f(x) is continuous
   - **Probability Estimation:** f(x) is the probability of x
-**
-Why inductive learning**: Given data, use induction, as opposed to deduction, to try and identify a function that predicts the data.
+
+**Why inductive learning**: Given data, use induction, as opposed to deduction, to try and identify a function that predicts the data.
 
 Features: Properties that describe each instance
 
