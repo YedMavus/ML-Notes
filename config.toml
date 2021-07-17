@@ -1,6 +1,6 @@
 baseURL = "https://yedmavus.github.io/MLNotes/" # Please enter your githubpage's url here
 languageCode = "en-us"
-title = "Machine Learning Notes Based on NPTEL Lectures at IIT-Kgp"
+title = "Machine Learning Notes"
 theme = "hyde"
 
 
@@ -11,5 +11,7 @@ theme = "hyde"
   ]
 
 [params]
-  description = """Course Instructor Prof. Sudeshna Saha /
+  description = 
+  """ Course Instructor Prof. Sudeshna Saha /
+  Machine Learning Notes Based on NPTEL Lectures at IIT-Kgp /
   All notes taken by Suvam Dey"""
