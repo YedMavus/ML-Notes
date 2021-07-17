@@ -13,8 +13,7 @@ theme = "hyde"
 [params]
   description = 
   <!---"""\
-  Course Instructor Prof. Sudeshna Saha \
   Machine Learning Notes Based on NPTEL Lectures at IIT-Kgp \
-  All notes taken by Suvam Dey"""--->
+  by Suvam Dey"""--->
   
   
