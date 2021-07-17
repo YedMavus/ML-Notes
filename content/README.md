@@ -1,6 +1,6 @@
 ---
 title: "Contains notes on ML course by NPTEL at IIT-KGP"
-date: 2111-07-13 00:00:00 +0000
+date: 2051-07-13 00:00:00 +0000
 katex: true
 ---
 # Contains notes on ML course by NPTEL at IIT-KGP 
