@@ -64,4 +64,11 @@ Can theoretically take infinie number of values, eg Height, weight, price, etc
 | **Bias** | Decreases | Decreases | Remains the same |
 | **Variance** | Increases | Increases | Decreases |
 
+## Generalisation of Performance
+
+How good does the LA perform when given new training examples?
+This can be controlled by controlling the bias and variance.
+
+
+
 <incomplete>
