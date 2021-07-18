@@ -1,6 +1,6 @@
 ---
 title: "Week 1 Lecture 5: Tutorial 1"
-date: 2021-07-18 18:00:00 +0000
+date: 2021-07-18 00:00:00 +0000
 katex: true
 ---
 # Week 1 Lecture 5: Tutorial 1
