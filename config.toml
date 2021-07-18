@@ -12,7 +12,7 @@ theme = "hyde"
   ]
 
 [params]
-  description =   "Machine Learning Notes Based on NPTEL Lectures at IIT-Kgp | Course instructor Prof Sudeshna Saha | Notes taken by Suvam Dey"
+  description =   "Machine Learning Notes Based on Andrew Ng's ML lectures and NPTEL Lectures at IIT-Kgp | Course instructor Prof Ng and Prof Sudeshna Saha | Notes taken by Suvam Dey"
 theme = "hyde"
 layoutReverse = true
 themeColor = "theme-base-0d"
