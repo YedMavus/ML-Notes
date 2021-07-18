@@ -17,5 +17,7 @@ theme = "hyde"
 layoutReverse = true
 themeColor = "theme-base-0d"
 
+disqusShortname = "spf13"
+
   
   
