@@ -2,6 +2,19 @@ baseURL = "https://yedmavus.github.io/MLNotes/" # Please enter your githubpage's
 languageCode = "en-us"
 title = "ML Notes"
 theme = "hyde"
+<!-- Default sidebar -->
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    ...
+  </div>
+</div>
+
+<!-- Modified sidebar -->
+<div class="sidebar">
+  <div class="container">
+    ...
+  </div>
+</div>
 
 
 [Menus]
@@ -12,6 +25,9 @@ theme = "hyde"
 
 [params]
   description =   "Machine Learning Notes Based on NPTEL Lectures at IIT-Kgp | Course instructor Prof Sudeshna Saha | Notes taken by Suvam Dey"
+theme = "hyde"
+layoutReverse = true
+themeColor = "theme-base-09"
 
   
   
