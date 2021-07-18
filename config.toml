@@ -2,19 +2,7 @@ baseURL = "https://yedmavus.github.io/MLNotes/" # Please enter your githubpage's
 languageCode = "en-us"
 title = "ML Notes"
 theme = "hyde"
-<!-- Default sidebar -->
-<div class="sidebar">
-  <div class="container sidebar-sticky">
-    ...
-  </div>
-</div>
 
-<!-- Modified sidebar -->
-<div class="sidebar">
-  <div class="container">
-    ...
-  </div>
-</div>
 
 
 [Menus]
