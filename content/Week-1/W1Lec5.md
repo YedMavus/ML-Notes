@@ -1,6 +1,6 @@
 ---
 title: "Week 1 Lecture 5: Tutorial 1"
-date: 2021-07-16 18:00:00 +0000
+date: 2021-07-18 18:00:00 +0000
 katex: true
 ---
 # Week 1 Lecture 5: Tutorial 1
@@ -57,8 +57,11 @@ Can theoretically take infinie number of values, eg Height, weight, price, etc
 - Due to sensitivity of learning towards noise as opposed to the features and relationship of input/output
 - Happens if too many features are being considered
 - Happens if too less training data
+
+
 |  | Number of Features | Number of Parameters | Number of Training Examples |
 | ---- | ---- | ---- | ---- |
 | **Bias** | Decreases | Decreases | Remains the same |
 | **Variance** | Increases | Increases | Decreases |
+
 <incomplete>
