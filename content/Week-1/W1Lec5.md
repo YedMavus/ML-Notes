@@ -22,4 +22,5 @@ Suppose we have a huge number of images (1 Million, say)
 
 So step 1 is unsupervised, while step 2 may be supervised or unsupervised.
 
+## Categorical vs Continious
 <incomplete>
