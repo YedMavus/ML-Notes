@@ -70,5 +70,5 @@ How good does the LA perform when given new training examples?
 This can be controlled by controlling the bias and variance.
 
 
-
-<incomplete>
+# Programming Assignment 1 [week2] of Ng
+Solution by Suvam: https://github.com/YedMavus/ML-Programs/blob/main/AndrewNg-ex1/figure1.gif
