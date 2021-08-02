@@ -39,8 +39,6 @@ Machine Learning Notes Based on Andrew Ng's ML lectures and NPTEL Lectures at II
 <div class=post>
 <h1>Week 2 Lecture 2: Linear Regression</h1>
 <time datetime=2021-08-02T00:00:00Z class=post-date>Mon, Aug 2, 2021</time>
-<p>\( \usepackage{graphicx} \)
-\( \graphicspath{ {./images/} } \)</p>
 <h1 id=week-2-lecture-2-linear-regression>Week 2 Lecture 2: Linear Regression</h1>
 <h2 id=regression-in-x-and-y>Regression in X and Y</h2>
 <h3 id=firstly-for-regression-y-is-continious>Firstly for <strong>regression</strong> Y is continious</h3>
@@ -83,6 +81,12 @@ Machine Learning Notes Based on Andrew Ng's ML lectures and NPTEL Lectures at II
 This can be done by taking pratial derivative of the function wrt the coefficients \( \theta \) and setting them to 0</p>
 <p>\( \theta _1 = \frac{n\Sigma xy - \Sigma x \Sigma y}{ n \Sigma x^2 - (\Sigma x)^2} \)</p>
 <p>\( \theta _0 = \frac{\Sigma y - \theta _1 \Sigma x }{ n} \)</p>
+<p>The reduction can be done using Gradient Descent</p>
+<h3 id=gradient-descent>Gradient Descent</h3>
+<ul>
+<li>Batch Gradient Descent [ Updation of all examples takes place in 1 step ]</li>
+<li>Stochastic Gradient Descent [ Updation of 1 example per step, so much faster ]</li>
+</ul>
 </div>
 </main>
 </body>
