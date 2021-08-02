@@ -56,14 +56,33 @@ Machine Learning Notes Based on Andrew Ng's ML lectures and NPTEL Lectures at II
 </ul>
 <h2 id=linear-regression>Linear Regression</h2>
 <h3 id=simple-linear-regression>Simple Linear Regression:</h3>
-<h4 id=-y--beta-_0--beta-_-1-x->\( Y = \beta _0 + \beta _ 1 X \)</h4>
-<p>Obviously, \( \beta _0 \) is the Y axis intercept, while \( \beta _ 1 \) is the population slope.</p>
+<h4 id=-y--theta-_0--theta-_-1-x->\( Y = \theta _0 + \theta _ 1 X \)</h4>
+<p>Obviously, \( \theta _0 \) is the Y axis intercept, while \( \theta _ 1 \) is the population slope.</p>
 <h3 id=multiple-linear-regression>Multiple Linear Regression</h3>
-<h4 id=-y--beta-_0--beta-_-1-x--beta-_-2-x_2----beta-_-p-x_p->\( Y = \beta _0 + \beta _ 1 X + \beta _ 2 X_2 + &mldr; + \beta _ p X_p \)</h4>
-<p>Thus \( \beta _i \) where i>0 is the slope of the i^th variable X_i, and \( \beta _0 \) is the average value of Y if all X are made 0.</p>
+<h4 id=-y--theta-_0--theta-_-1-x--theta-_-2-x_2----theta-_-p-x_p->\( Y = \theta _0 + \theta _ 1 X + \theta _ 2 X_2 + &mldr; + \theta _ p X_p \)</h4>
+<p>Thus \( \theta _i \) where i>0 is the slope of the i^th variable X_i, and \( \theta _0 \) is the average value of Y if all X are made 0.</p>
 <p>These are the expected values, in actuality, both LR in single and multiple have an extra random error term \( \epsilon \) added at the end.</p>
-<p>We try to find \( \beta _0 , \beta _ 1 , \beta _ 2 , &mldr; , \beta _ p \) such that it fits the given data closely.</p>
-<p>This is done using</p>
+<p>We try to find \( \theta _0 , \theta _ 1 , \theta _ 2 , &mldr; , \theta _ p \) such that it fits the given data closely.</p>
+<h2 id=assumptions-in-lr>Assumptions in LR</h2>
+<p>Consider <strong>simple LR</strong>: \( Y = \theta _0 + \theta _ 1 X + \epsilon \)</p>
+<p>Let E(p) denote expectation of P.</p>
+<p>The assumption we make are</p>
+<ol>
+<li>Dataset is linear</li>
+<li>E( \(\epsilon _i \) ) = 0 [ie mean of random errors is 0]</li>
+<li>\(\sigma \) ( \(\epsilon _i \) ) = \(\sigma _0 \) [Some std dev exists]</li>
+<li>Errors are independent of each other</li>
+<li>Errors are normally distributed</li>
+</ol>
+<p>This kind of noise is called Gaussian noise</p>
+<h2 id=fitting>Fitting</h2>
+<p>We try to find \( \theta _0 , \theta _ 1 , \theta _ 2 , &mldr; , \theta _ p \) such that it fits the given data closely, such that the sum of squares of vertical distances between data points and the line is the least [ called <strong>Least Squares regression line</strong>, and this is a unique line ]</p>
+<p>Given training points \(x_i , y_i ) \)</p>
+<p>Sum of sq errors is given by \( \Sigma ( y_i - ( \theta _0 + \theta _1 x_1 )^2 \)</p>
+<p>And we want to minimise this by changing \( \theta _i \)
+This can be done by taking pratial derivative of the function wrt the coefficients \( \theta \) and setting them to 0</p>
+<p>\( \theta _1 = \frac{n\Sigma xy - \Sigma x \Sigma y}{ n \Sigma x^2 - (\Sigma x0^2} \)</p>
+<p>\( \theta _0 = \frac{\Sigma y - \theta _1 \Sigma x }{ n} \)</p>
 </div>
 </main>
 </body>
