@@ -23,7 +23,8 @@ where \\( \phi \\) is a bias added to the function to assign how much importance
 
 Basically the work of the computer is to tweak all of these knobs to  find the perfect setting to output what we want.
 
-## Matrix Representation
+---
+ Matrix Representation
 
 The first layer's first node is represented as 
 
