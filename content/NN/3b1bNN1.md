@@ -25,9 +25,9 @@ Basically the work of the computer is to tweak all of these knobs to  find the p
 
 ___
 ### Matrix Representation
-\\( w_i \\)
+
 The first layer's first node is represented as 
-\\( w_i \\)
+
 
 \\( a_0^(1) =  \sigma ( w_0,0 a_0^(0) + w_0,1 a_1^(0) + w_0,2 a_2^(0) + ...  + w_0,n a_n^(0) - \b_0 ) \\)
 
