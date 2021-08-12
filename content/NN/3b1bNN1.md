@@ -15,7 +15,7 @@ So the final function for one node of the NN looks something like
 
 \\( \sigma ( w_1 a_1 + w_2 a_2 + w_3 a_3 + ...  + w_n a_n - \phi ) \\)
 
-where \\( \phi \\) is a bias added to the function to assign how much importance that part is to the final output.
+where \\( \phi \\) is a bias added to the function to assign how much importance that part is to the final output. Bias tells you how big that weighted sum needs to be before the neuron gets meaningfully active.
 
 \\( w_i \\) can be considered like knobs that can be slowly tweaked and manipulated to reach desired results.
 
