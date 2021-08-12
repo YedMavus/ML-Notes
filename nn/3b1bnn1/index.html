@@ -46,7 +46,7 @@ Each layer contains nodes that take care of a part of the number. So each of the
 <p>Basically it is calculating weighted sum, while squishing the whole number line in between 0-1, so that the numbers are easier to process, and is anologous to probability.
 So the final function for one node of the NN looks something like</p>
 <p>\( \sigma ( w_1 a_1 + w_2 a_2 + w_3 a_3 + &mldr; + w_n a_n - \phi ) \)</p>
-<p>where \( \phi \) is a bias added to the function to assign how much importance that part is to the final output.</p>
+<p>where \( \phi \) is a bias added to the function to assign how much importance that part is to the final output. Bias tells you how big that weighted sum needs to be before the neuron gets meaningfully active.</p>
 <p>\( w_i \) can be considered like knobs that can be slowly tweaked and manipulated to reach desired results.</p>
 <p>\( a_i \) are the results coming in from the previous layer!</p>
 <p>Basically the work of the computer is to tweak all of these knobs to find the perfect setting to output what we want.</p>
