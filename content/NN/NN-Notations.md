@@ -5,6 +5,9 @@ katex: true
 ---
 # Notation in Neural Networks
 
+Reference Video:
+<iframe width="1151" height="647" src="https://www.youtube.com/embed/tIeHLnjs5U8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### a usually denotes activation layer node, w - weights, b - bias
 
 To imply **which layer** the particular node is in, we use the superscript.
@@ -20,3 +23,5 @@ so
 \\( a^{(L)} = \sigma( z^{(L)} ) \\)
 
 To imply which particular neuron / node of a particular layer we are referring to, we use the subscript.
+
+
