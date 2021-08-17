@@ -8,7 +8,7 @@ katex: true
 ### a usually denotes activation layer node, w - weights, b - bias
 
 To imply **which layer** the particular node is in, we use the superscript.
-If the node is in layer L, it's activation may be denoted by\\( a^\textsuperscript{(L)} \\) while that of the one before may be \\( a^\textsuperscript{(L-1)} \\) .
+If the node is in layer L, it's activation may be denoted by \\( a^\textsuperscript{(L)} \\) while that of the one before may be \\( a^\textsuperscript{(L-1)} \\) .
 
 If the desider output is denoted by y, for that particular activation node, it's cost is \\( C_0 ( \cdots ) = ( a ^{(L)} - y^2 \\)
 
