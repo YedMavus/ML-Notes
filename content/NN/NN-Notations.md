@@ -18,3 +18,5 @@ For simplicity, \\( w ^{(L)} a^{(L-1)} + b^{(L)} \\) can be denoted by \\( z^{(L
 so 
 
 \\( a^{(L)} = \sigma( z^{(L)} ) \\)
+
+To imply which particular neuron / node of a particular layer we are referring to, we use the subscript.
