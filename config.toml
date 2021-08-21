@@ -9,7 +9,7 @@ theme = "hyde"
   main = [
       {Name = "Github", URL = "https://github.com/YedMavus/"},
       {Name = "LinkedIn", URL = "https://www.linkedin.com/in/suvam-dey/"}
-      {Name = "Index", URL = "https://yedmavus.github.io/MLNotes/category/"}
+      {Name = "Home", URL = "https://yedmavus.github.io/MLNotes/category/"}
   ]
 
 [params]
