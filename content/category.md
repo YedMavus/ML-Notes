@@ -20,3 +20,8 @@ katex: true
 - NeuralNetworks
     - [Blue1Brown-1](https://yedmavus.github.io/MLNotes/nn/3b1bnn1/)
     - [Notations in Neural Networks](https://yedmavus.github.io/MLNotes/nn/nn-notations/)
+
+- Supremely Better Resources than this crap:
+    - http://3b1b.co/neural-networks
+    - http://colah.github.io/
+    - http://neuralnetworksanddeeplearning.com/chap1.html
