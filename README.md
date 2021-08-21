@@ -1,5 +1,5 @@
 # MLNotes
-## https://yedmavus.github.io/MLNotes/
+## https://yedmavus.github.io/MLNotes/category/
 A latex extended notes taken by Suvam Dey
 
 Website Credits: Soham Chakraborty and Suvam Dey
