@@ -76,6 +76,7 @@ so finding F' can use</p>
 </li>
 </ul>
 <p>Feature Selection can be <strong>univariate</strong> (looking at each feature one at a time) or <strong>multivariate</strong></p>
+<h3 id=univariate>Univariate</h3>
 <ul>
 <li>Pearson correlation coefficient r \( -1 &lt; r &lt; +1 \) r = 0 implies no correlation, r = +1 or -1 implies good correlation</li>
 <li>F-Score</li>
@@ -84,7 +85,16 @@ so finding F' can use</p>
 <li>Mutual Information</li>
 <li>etc</li>
 </ul>
-<h3 id=we-then-rank-the-features>We then rank the features</h3>
+<h4 id=we-then-rank-the-features>We then rank the features</h4>
+<h3 id=multivariate>Multivariate</h3>
+<ul>
+<li>Considers all features simultaneously</li>
+<li>Consider \( \vec w \) for any linear classifier</li>
+<li>Classifiaction of a point X is given by \( w^T x + w_0 \)</li>
+<li>W is basically the weights given to each feature, and the indices can be ranked based on the weights</li>
+<li>In recursive feature elimination, this is used, where features with least w are recursively removed till a reduction in accuracy is observed.</li>
+</ul>
+<h4 id=here--ve-or-ve-val-doesnt-matter-only-the-abs-val-determine-the-rank>Here -ve or +ve val doesnt matter. Only the abs val determine the rank.</h4>
 </div>
 </main>
 </body>
