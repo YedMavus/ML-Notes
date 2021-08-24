@@ -13,8 +13,40 @@ Moreover they may have redundant features, as we have limited computational reso
 
 So we use 2 methods to reduce this:
 
-- Feature Selection: F is fiven, find a subset F' which has elements less than F, such that it optimises cetrain aspects
-- Feature Extraction: Transforms or projects the existing features to a dimention m < n (original no. of dimentions)
+1. Feature Selection: F is fiven, find a subset F' which has elements less than F, such that it optimises cetrain aspects
+2. Feature Extraction: Transforms or projects the existing features to a dimention m < n (original no. of dimentions)
 
 Both cases we try to improve or maintain classification accuracy while simplifying it.
+
+For **1**, we have \\( 2^n \\) possible subsets
+so finding F' can use
+
+- Optimised algo
+- Heuristic / Greedy algo
+- Randomised algo
+
+For evaluation we have 2 methods: **Unsupervised** (Filter methods) that looks only at the input and outputs the one with most information and **Supervised methods** (Wrapper methods) that actually uses it on the learning algo and estimates error on validation set.
+
+Strategies
+- Use uncorrelated features [eg Age may be directly related to one's weight when we consider children, so we consider only one of those features]
+  - Forward Selection: Start from an empty set of features
+  - Try each remaining feature
+  - Estimate regression/classification error for each feature
+  - Select feature which gives best improvement and continue this one by one, until it doesnt improve any more
+- Backward Selection:
+  - Start with full feature set
+  - Try removing features as see how accuracy improves for a particular feature
+  - Drop the feature whose removal gives least improvement / impact on error
+
+Feature Selection can be **univariate** (looking at each feature one at a time) or **multivariate**
+
+- Pearson correlation coefficient r \\( -1 < r < +1 \\) r = 0 implies no correlation, r = +1 or -1 implies good correlation
+- F-Score
+- Chi-Square Test
+- Signal to noise ratio: \\( \frac{Difference in means}{Difference in std dev in two classes} \\). Large values = good correlation 
+- Mutual Information
+- etc
+
+### We then rank the features
+
 
