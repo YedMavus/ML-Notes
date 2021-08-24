@@ -40,6 +40,8 @@ Strategies
 
 Feature Selection can be **univariate** (looking at each feature one at a time) or **multivariate**
 
+### Univariate
+
 - Pearson correlation coefficient r \\( -1 < r < +1 \\) r = 0 implies no correlation, r = +1 or -1 implies good correlation
 - F-Score
 - Chi-Square Test
@@ -47,6 +49,15 @@ Feature Selection can be **univariate** (looking at each feature one at a time) 
 - Mutual Information
 - etc
 
-### We then rank the features
+#### We then rank the features
+
+### Multivariate
+
+- Considers all features simultaneously
+- Consider \\( \vec w \\) for any linear classifier
+- Classifiaction of a point X is given by \\( w^T x + w_0 \\)
+- W is basically the weights given to each feature, and the indices can be ranked based on the weights
+- In recursive feature elimination, this is used, where features with least w are recursively removed till a reduction in accuracy is observed.
+#### Here -ve or +ve val doesnt matter. Only the abs val determine the rank.
 
 
