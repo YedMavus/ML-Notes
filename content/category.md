@@ -15,6 +15,7 @@ katex: true
     - [Week-2 Lecture 1](https://yedmavus.github.io/MLNotes/week-2/w2l1/)
     - [Week-2 Lecture 2](https://yedmavus.github.io/MLNotes/week-2/w2l2/)
     - [Week-2 Lecture 3](https://yedmavus.github.io/MLNotes/week-2/w2l3/)
+    - [Week-3 Lecture 1,2](https://yedmavus.github.io/MLNotes/week3/w3l1_2/)
 
 
 - NeuralNetworks
