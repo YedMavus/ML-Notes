@@ -2,7 +2,7 @@
 Bayesian Estimation Calculates validity of a proposition: based on
 Prior Estimate of its prob New relevent evidence Baye&amp;rsquo;s Theorem \( P(h|D) = \frac{P(D|h)P(h)}{P(D)} \)
 How to apply this in ML? MAP [ Maximum A Posteriori] Hypothesis
-\( h_MAP = argmax P(h|D) \) \( h \epsilon H \)
+\( h_{MAP} = argmax P(h|D) \) \( h \epsilon H \)
 \( = argmax(P(D|h)P(h)) \)
 Maximum Likely [ML] Hyp: In cases where all the hypothesis are equally probable.</description></item><item><title>Collaborative Filtering</title><link>https://yedmavus.github.io/MLNotes/week3/w3l4/</link><pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate><guid>https://yedmavus.github.io/MLNotes/week3/w3l4/</guid><description>Recommender Systems Item Recomendation Rating Prediction Defn: We have a set of users U and a set of items S
 P is a function from
