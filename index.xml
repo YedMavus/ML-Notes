@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ML Notes</title><link>https://yedmavus.github.io/MLNotes/</link><description>Recent content on ML Notes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 25 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://yedmavus.github.io/MLNotes/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 4 Lecture 1: Bayesian Learning; An Introduction</title><link>https://yedmavus.github.io/MLNotes/week-4/w4l1/</link><pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate><guid>https://yedmavus.github.io/MLNotes/week-4/w4l1/</guid><description>Bayesian Probability Talks about probability interpretation based on partial beliefs.
 Bayesian Estimation Calculates validity of a proposition: based on
-Prior Estimate of its prob New relevent evidence Baye&amp;rsquo;s Theorem \( P(h|D) = frac{P(D|h)P(h)}{P(D)} \)</description></item><item><title>Collaborative Filtering</title><link>https://yedmavus.github.io/MLNotes/week3/w3l4/</link><pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate><guid>https://yedmavus.github.io/MLNotes/week3/w3l4/</guid><description>Recommender Systems Item Recomendation Rating Prediction Defn: We have a set of users U and a set of items S
+Prior Estimate of its prob New relevent evidence Baye&amp;rsquo;s Theorem \( P(h|D) = \frac{P(D|h)P(h)}{P(D)} \)
+How to apply this in ML? MAP [ Maximum A Posteriori] Hypothesis
+\( h_MAP = argmax P(h|D) \) \( h \epsilon H \)
+\( = argmax(P(D|h)P(h)) \)
+Maximum Likely [ML] Hyp: In cases where all the hypothesis are equally probable.</description></item><item><title>Collaborative Filtering</title><link>https://yedmavus.github.io/MLNotes/week3/w3l4/</link><pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate><guid>https://yedmavus.github.io/MLNotes/week3/w3l4/</guid><description>Recommender Systems Item Recomendation Rating Prediction Defn: We have a set of users U and a set of items S
 P is a function from
 \( P : U \bigcross S \rightarrow R \)
 So we learn P from data, and based on P we predict the utility value of each item to each user.
