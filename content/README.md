@@ -10,7 +10,7 @@ katex: true
 A latex extended notes taken by Suvam Dey
 
 Website Credits: Soham Chakraborty and Suvam Dey
-
+Best place to learn - read up research papers, even try to replicate and improve on them even. You can present those as projects even.
 
 LaTeX Render Credits: Soham Chakraborty
 
