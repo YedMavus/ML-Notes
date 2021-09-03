@@ -12,6 +12,8 @@ A latex extended notes taken by Suvam Dey
 Website Credits: Soham Chakraborty and Suvam Dey
 Best place to learn - read up research papers, even try to replicate and improve on them even. You can present those as projects even.
 
+Apply to IIT-D [takes GPA into consideration], IITs. They dont see if you have a lot of prev experience so its likely we will grab it.
+
 LaTeX Render Credits: Soham Chakraborty
 
 
