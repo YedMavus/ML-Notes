@@ -53,6 +53,15 @@ Machine Learning Notes Based on Andrew Ng's ML lectures and NPTEL Lectures at II
 </ul>
 <h1 id=my-idea-and-how-can-this-be-improved>My Idea, and How can this be improved:</h1>
 <h3 id=k-means---difference-in-pattern-recognition-by-a-computer-and-our-brain>K-Means - Difference in pattern recognition by a Computer and our Brain</h3>
+<p>What I observed is to find correlation between points in data, we look out for the gaps between clusters of data points.
+i e if we inverted the colors, we look for holes in the graph (where the data was more dense).
+So my idea of the algorithm is</p>
+<ol>
+<li>Randomly <strong>&ldquo;seed&rdquo;</strong> the data with noise (say . s) [while the data is denoted by X], such that there is less noise where there is more data. i.e. each data point has a sort of radius around which there occurs no noise.</li>
+<li>Next we get rid of the data points (X)on the graph.</li>
+<li>Get rid of the random noise in less dense areas and put the centroid there.</li>
+</ol>
+<p>This is computationally a little bit more resourceful, but it may well be much more acurate.</p>
 </div>
 </main>
 </body>
