@@ -4,7 +4,7 @@
 <meta charset=utf-8>
 <meta name=generator content="Hugo 0.88.1">
 <meta name=viewport content="width=device-width,initial-scale=1">
-<title>Week 4 Lecture 1: Bayesian Learning; An Introduction &#183; ML Notes</title>
+<title>K-means Clustering: My Own Insights &#183; ML Notes</title>
 <meta name=description content>
 <link type=text/css rel=stylesheet href=https://yedmavus.github.io/MLNotes/css/print.css media=print>
 <link type=text/css rel=stylesheet href=https://yedmavus.github.io/MLNotes/css/poole.css>
@@ -37,26 +37,22 @@ Machine Learning Notes Based on Andrew Ng's ML lectures and NPTEL Lectures at II
 </aside>
 <main class="content container">
 <div class=post>
-<h1>Week 4 Lecture 1: Bayesian Learning; An Introduction</h1>
-<time datetime=2021-08-25T00:00:00Z class=post-date>Wed, Aug 25, 2021</time>
-<h3 id=bayesian-probability>Bayesian Probability</h3>
-<p>Talks about probability interpretation based on partial beliefs.</p>
-<h3 id=bayesian-estimation>Bayesian Estimation</h3>
-<p>Calculates validity of a proposition: based on</p>
+<h1>K-means Clustering: My Own Insights</h1>
+<time datetime=2021-09-06T00:00:00Z class=post-date>Mon, Sep 6, 2021</time>
+<h1 id=k-means-clustering>K-means-clustering</h1>
+<p>A cluster refers to a collection of data points aggregated together because of certain similarities.</p>
+<p>K-Means clustering is used to clump unsupervised data into K different subgroups / clusters, in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster.</p>
+<p>The K-means algorithm identifies k number of centroids, and then allocates every data point to the nearest cluster, while keeping the centroids as small as possible. K-<strong>means</strong> clustering is called so, cause it finds the mean (ie trhe centroid).</p>
+<h2 id=k-means-algorithm>K means algorithm:</h2>
+<h3 id=classify-clusters>Classify Clusters</h3>
+<h3 id=move-older-centroid-to-new-centroid-of-data-points>Move older centroid to new centroid of Data Points</h3>
+<h3 id=stopping-iterations>Stopping iterations:</h3>
 <ul>
-<li>Prior Estimate of its prob</li>
-<li>New relevent evidence</li>
+<li>The centroids have stabilized — there is no change in their values because the clustering has been successful.</li>
+<li>The defined number of iterations has been achieved.</li>
 </ul>
-<h2 id=bayes-theorem>Baye&rsquo;s Theorem</h2>
-<p>\( P(h|D) = \frac{P(D|h)P(h)}{P(D)} \)</p>
-<h3 id=how-to-apply-this-in-ml>How to apply this in ML?</h3>
-<p>MAP [ Maximum A Posteriori] Hypothesis</p>
-<p>\( h_{MAP} = argmax (P(h|D)) \)</p>
-<p>\( h \epsilon H \)</p>
-<p>\( = argmax(P(D|h)P(h)) \)</p>
-<h4 id=maximum-likely-ml-hyp-in-cases-where-all-the-hypothesis-are-equally-probable>Maximum Likely [ML] Hyp: In cases where all the hypothesis are equally probable.</h4>
-<p>\( h_{ML} = argmax (P(D|h)) \)</p>
-<p>\( h \epsilon H \)</p>
+<h1 id=my-idea-and-how-can-this-be-improved>My Idea, and How can this be improved:</h1>
+<h3 id=k-means---difference-in-pattern-recognition-by-a-computer-and-our-brain>K-Means - Difference in pattern recognition by a Computer and our Brain</h3>
 </div>
 </main>
 </body>
