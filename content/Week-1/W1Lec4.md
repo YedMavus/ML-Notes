@@ -19,6 +19,11 @@ Given y' = h(x) is a prediction on x and y is the actual value. If y' differs fr
 - Sum of Square Method: 1/n &sum;(h(x) - y)<sup>2</sup>
 - Classification error: 1/n &sum; &delta; (h(x),y)
 
+## Definitions:
+- **Training Dataset:** The sample of data used to fit the model.
+- **Validation Dataset:** The sample of data used to provide an unbiased evaluation of a model fit on the training dataset while tuning model hyperparameters. The evaluation becomes more biased as skill on the validation dataset is incorporated into the model configuration.
+- **Test Dataset:** The sample of data used to provide an unbiased evaluation of a final model fit on the training dataset.
+
 In classification, we define a **confusion matrix**
 
 | Hyp Class\True Class | Positive | Negative |
