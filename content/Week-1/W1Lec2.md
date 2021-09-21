@@ -13,7 +13,7 @@ katex: true
 - Reinforcement Learning
   - Given an "agent" Determine what to do based on rewards and punishments
   - Agent takes an action which impacts the enviornment, based on which it is rewarded ( rewards can  be [-1, 0, 1])
-  - The agent tries to optimise longterm rewards
+  - The agent tries to optimise immediate rewards
 - SemiSupervised Learning //Not defined in Andrew Ng's course, who put it in supervised learning only
   - Combo
   - Given labelled training data, and a even larger unlabelled data, come up with algo to process the unlabelled data
