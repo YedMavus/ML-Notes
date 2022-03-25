@@ -12,3 +12,9 @@ max()
 float()
 int()
 ```
+How to declare custom functions? 
+an example:
+```
+def mult_by_five(x):
+    return 5 * x
+```
