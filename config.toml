@@ -8,7 +8,7 @@ theme = "hyde"
 [Menus]
   main = [
       {Name = "Github", URL = "https://github.com/YedMavus/"},
-      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/suvam-dey/"}
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/suvam-dey/"},
       {Name = "PageHome", URL = "https://yedmavus.github.io/MLNotes/category/"}
   ]
 
