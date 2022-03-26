@@ -2,6 +2,7 @@
 max()
 float()
 int()
+round(num, &lt;no of decimal places&gt;)
 </code></pre><p>How to declare custom functions?
 an example:</p><pre tabindex=0><code>def mult_by_five(x):
     return 5 * x
@@ -16,4 +17,13 @@ print(
     max(100, 51, 14, key=mod_5),
     sep=&#39;\n&#39;,
 )
-</code></pre><p>Here, max returns the largest of its arguments. But if we pass in a function using the optional key argument, it returns the argument x that maximizes key(x) (aka the &lsquo;argmax&rsquo;).</p></div></main></body></html>
+</code></pre><p>Here, max returns the largest of its arguments. But if we pass in a function using the optional key argument, it returns the argument x that maximizes key(x) (aka the &lsquo;argmax&rsquo;).</p><p>If else:</p><pre tabindex=0><code>if x == 0:
+        print(x, &#34;is zero&#34;)
+elif x &gt; 0:
+...
+else
+...
+</code></pre><h3 id=lists>Lists</h3><p>AKA Array</p><p>Can consist of same or different types, and even of diff lists itself</p><p><code>primes = [2, 3, 5, 7]</code>
+indexing starts from 0.
+Index -1 returns the last element, -2 the second last and so on.</p><p>Slicing:</p><p>In indexing,
+<code>0:3</code> or <code>:3</code> is a way of returning index 0 and continuing up to but not including index 3.</p><p>List functions:</p><ul><li><code>len()</code> gives length of list</li><li><code>sorted()</code> sorts list in alphabetical order</li><li><code>sum()</code></li><li><code>max()</code> etc</li><li><code>list.append()</code> adds sth to list at the end</li><li><code>list.pop()</code> removes last element of list</li><li>To declare an empty list A, <code>A = []</code></li><li></li></ul></div></main></body></html>
