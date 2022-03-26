@@ -80,4 +80,14 @@ List functions:
 - `list.append()` adds sth to list at the end
 - `list.pop()` removes last element of list
 - To declare an empty list A, `A = []`
-- 
+- For n^x, use `n**x`
+- `loud_short_planets = [planet.upper() + '!' for planet in planets if len(planet) < 6]`
+
+Strings and Dictionary
+
+- Useful string functions: `str.upper()`; `str.lower()`; `str.index("some string")`: Searches for the first index of substring in quotes; `str.startswith()` ; `str.endswith()`; `str.split()`: Breaks string by whitespaces into a list. When some character is given in quotes as attributes to the function, the breakage occurs at the occurence of that character; `"/".join([month,day,year])` outputs `'26/03/22'`; `"{}, you'll always be the {}th planet to me.".format(planet, position)` outputs `"Pluto, you'll always be the 9th planet to me."`;
+- https://docs.python.org/3/library/string.html#formatstrings
+- https://pyformat.info/
+- **Dictionaries** are a built-in Python data structure for mapping keys to values.
+
+
