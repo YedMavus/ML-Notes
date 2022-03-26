@@ -1,4 +1,9 @@
-# Revision om ML
+---
+title: "Revision"
+date: 2022-03-26 00:00:00 +0000
+katex: true
+---
+# Revision on ML
 
 ## Python
 
