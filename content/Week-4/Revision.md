@@ -89,5 +89,10 @@ Strings and Dictionary
 - https://docs.python.org/3/library/string.html#formatstrings
 - https://pyformat.info/
 - **Dictionaries** are a built-in Python data structure for mapping keys to values.
+- It consists of keys ( like index in an array ) and their corresponsing values. eg `numbers = {'one':1, 'two':2, 'three':3}`
+- To add new value, we can use (working on prev example) `numbers['eleven'] = 11` which ends up as `{'one': 1, 'two': 2, 'three': 3, 'eleven': 11}`
+- We can access a collection of all the keys or all the values with `dict.keys()` and `dict.values()`, respectively.
+- `for planet, initial in planet_to_initial.items():`
+- 
 
 
