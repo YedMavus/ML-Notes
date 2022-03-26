@@ -7,4 +7,8 @@ How to apply this in ML? MAP [ Maximum A Posteriori] Hypothesis
 \( h_{MAP} = argmax (P(h|D)) \)
 \( h \epsilon H \)
 \( = argmax(P(D|h)P(h)) \)
-Maximum Likely [ML] Hyp: In cases where all the hypothesis are equally probable.</description></item></channel></rss>
+Maximum Likely [ML] Hyp: In cases where all the hypothesis are equally probable.</description></item><item><title/><link>https://yedmavus.github.io/MLNotes/week-4/revision/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yedmavus.github.io/MLNotes/week-4/revision/</guid><description>Revision om ML Python // rounds off the number to nearest integer. 5//2 = 2.5 -&amp;gt; 2; 6/2 = 3 -&amp;gt; 3
+Useful functions:
+min() max() float() int() round(num, &amp;lt;no of decimal places&amp;gt;) How to declare custom functions? an example:
+def mult_by_five(x): return 5 * x etc
+def mod_5(x): &amp;#34;&amp;#34;&amp;#34;Return the remainder of x after dividing by 5&amp;#34;&amp;#34;&amp;#34; return x % 5 print( &amp;#39;Which number is biggest?&amp;#39;, max(100, 51, 14), &amp;#39;Which number is the biggest modulo 5?</description></item></channel></rss>

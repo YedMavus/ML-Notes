@@ -1,0 +1,29 @@
+<!doctype html><html xmlns=http://www.w3.org/1999/xhtml xml:lang=en-us lang=en-us><head><link href=https://gmpg.org/xfn/11 rel=profile><meta charset=utf-8><meta name=generator content="Hugo 0.95.0"><meta name=viewport content="width=device-width,initial-scale=1"><title>&#183; ML Notes</title><meta name=description content><link type=text/css rel=stylesheet href=https://yedmavus.github.io/MLNotes/css/print.css media=print><link type=text/css rel=stylesheet href=https://yedmavus.github.io/MLNotes/css/poole.css><link type=text/css rel=stylesheet href=https://yedmavus.github.io/MLNotes/css/syntax.css><link type=text/css rel=stylesheet href=https://yedmavus.github.io/MLNotes/css/hyde.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700"><link rel=apple-touch-icon-precomposed sizes=144x144 href=/apple-touch-icon-144-precomposed.png><link rel="shortcut icon" href=/favicon.png></head><body class="theme-base-0d layout-reverse"><aside class=sidebar><div class="container sidebar-sticky"><div class=sidebar-about><a href=https://yedmavus.github.io/MLNotes/><h1>ML Notes</h1></a><p class=lead>Machine Learning Notes Based on Andrew Ng's ML lectures and NPTEL Lectures at IIT-Kgp | Course instructor Prof Ng and Prof Sudeshna Saha | Notes taken by Suvam Dey</p></div><nav><ul class=sidebar-nav><li><a href=https://yedmavus.github.io/MLNotes/>Home</a></li><li><a href=https://github.com/YedMavus/>Github</a></li><li><a href=https://www.linkedin.com/in/suvam-dey/>LinkedIn</a></li><li><a href=https://yedmavus.github.io/MLNotes/category/>PageHome</a></li></ul></nav><p>&copy; 2022. All rights reserved.</p></div></aside><main class="content container"><div class=post><h1></h1><time datetime=0001-01-01T00:00:00Z class=post-date>Mon, Jan 1, 0001</time><h1 id=revision-om-ml>Revision om ML</h1><h2 id=python>Python</h2><p><code>//</code> rounds off the number to nearest integer. 5//2 = 2.5 -> 2; 6/2 = 3 -> 3</p><p>Useful functions:</p><pre tabindex=0><code>min()
+max()
+float()
+int()
+round(num, &lt;no of decimal places&gt;)
+</code></pre><p>How to declare custom functions?
+an example:</p><pre tabindex=0><code>def mult_by_five(x):
+    return 5 * x
+</code></pre><p>etc</p><pre tabindex=0><code>def mod_5(x):
+    &#34;&#34;&#34;Return the remainder of x after dividing by 5&#34;&#34;&#34;
+    return x % 5
+
+print(
+    &#39;Which number is biggest?&#39;,
+    max(100, 51, 14),
+    &#39;Which number is the biggest modulo 5?&#39;,
+    max(100, 51, 14, key=mod_5),
+    sep=&#39;\n&#39;,
+)
+</code></pre><p>Here, max returns the largest of its arguments. But if we pass in a function using the optional key argument, it returns the argument x that maximizes key(x) (aka the &lsquo;argmax&rsquo;).</p><p>If else:</p><pre tabindex=0><code>if x == 0:
+        print(x, &#34;is zero&#34;)
+elif x &gt; 0:
+...
+else
+...
+</code></pre><h3 id=lists>Lists</h3><p>AKA Array</p><p>Can consist of same or different types, and even of diff lists itself</p><p><code>primes = [2, 3, 5, 7]</code>
+indexing starts from 0.
+Index -1 returns the last element, -2 the second last and so on.</p><p>Slicing:</p><p>In indexing,
+<code>0:3</code> or <code>:3</code> is a way of returning index 0 and continuing up to but not including index 3.</p><p>List functions:</p><ul><li><code>len()</code> gives length of list</li><li><code>sorted()</code> sorts list in alphabetical order</li><li><code>sum()</code></li><li><code>max()</code> etc</li><li><code>list.append()</code> adds sth to list at the end</li><li><code>list.pop()</code> removes last element of list</li><li>To declare an empty list A, <code>A = []</code></li><li></li></ul></div></main></body></html>
