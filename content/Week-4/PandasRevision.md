@@ -33,3 +33,7 @@ pd.Series([30, 35, 40], index=['2015 Sales', '2016 Sales', '2017 Sales'], name='
   Where A is a DataFrame. ` index_col=0` indicates that the first column of the data is the index of rows, so is not actually data to be considered in the body, only as heading
   
 `A.shape()` and `A.head()` give the dimension and top 10 entries respectively to let us wrap our head round the data.
+
+### Writing Data
+
+`A.to_csv("<filename>.csv")`
