@@ -4,4 +4,4 @@
              index=[&#39;Product A&#39;, &#39;Product B&#39;])
 </code></pre><h3 id=series>Series</h3><pre tabindex=0><code>pd.Series([30, 35, 40], index=[&#39;2015 Sales&#39;, &#39;2016 Sales&#39;, &#39;2017 Sales&#39;], name=&#39;Product A&#39;)
 </code></pre><h3 id=reading-data>Reading Data</h3><p><code>A = pd.read_csv("&lt;some file path>", index_col=0)</code>
-Where A is a DataFrame. <code>index_col=0</code> indicates that the first column of the data is the index of rows, so is not actually data to be considered in the body, only as heading</p><p><code>A.shape()</code> and <code>A.head()</code> give the dimension and top 10 entries respectively to let us wrap our head round the data.</p></div></main></body></html>
+Where A is a DataFrame. <code>index_col=0</code> indicates that the first column of the data is the index of rows, so is not actually data to be considered in the body, only as heading</p><p><code>A.shape()</code> and <code>A.head()</code> give the dimension and top 10 entries respectively to let us wrap our head round the data.</p><h3 id=writing-data>Writing Data</h3><p><code>A.to_csv("&lt;filename>.csv")</code></p></div></main></body></html>
