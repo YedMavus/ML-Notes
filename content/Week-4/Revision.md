@@ -86,7 +86,7 @@ List functions:
 - For n^x, use `n**x`
 - `loud_short_planets = [planet.upper() + '!' for planet in planets if len(planet) < 6]`
 
-Strings and Dictionary
+### Strings and Dictionary
 
 - Useful string functions: `str.isdigit()`; `str.upper()`; `str.lower()`; `str.index("some string")`: Searches for the first index of substring in quotes; `str.startswith()` ; `str.endswith()`; `str.split()`: Breaks string by whitespaces into a list. When some character is given in quotes as attributes to the function, the breakage occurs at the occurence of that character; `"/".join([month,day,year])` outputs `'26/03/22'`; `"{}, you'll always be the {}th planet to me.".format(planet, position)` outputs `"Pluto, you'll always be the 9th planet to me."`;
 - https://docs.python.org/3/library/string.html#formatstrings
