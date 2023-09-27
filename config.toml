@@ -1,4 +1,4 @@
-baseURL = "https://suvam.me/" # Please enter your githubpage's url here
+baseURL = "https://suvam.me/MLNotes" # Please enter your githubpage's url here
 languageCode = "en-us"
 title = "ML Notes"
 theme = "hyde"
