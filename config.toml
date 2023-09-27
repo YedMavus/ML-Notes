@@ -1,7 +1,8 @@
+theme = "hyde"
 baseURL = "https://yedmavus.github.io/MLNotes/" # Please enter your githubpage's url here
 languageCode = "en-us"
 title = "ML Notes"
-theme = "hyde"
+
 
 
 
