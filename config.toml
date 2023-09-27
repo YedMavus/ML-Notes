@@ -1,4 +1,4 @@
-baseURL = "https://suvam.me/MLNotes" # Please enter your githubpage's url here
+baseURL = "https://yedmavus.github.io/MLNotes/" # Please enter your githubpage's url here
 languageCode = "en-us"
 title = "ML Notes"
 theme = "hyde"
@@ -19,6 +19,3 @@ layoutReverse = true
 themeColor = "theme-base-0d"
 
 disqusShortname = "spf13"
-
-  
-  
